@@ -1,0 +1,25 @@
+﻿namespace DemoSite.Models {
+    using KalikoCMS.Attributes;
+    using KalikoCMS.Core;
+    using KalikoCMS.PropertyType;
+    using PropertyTypes;
+
+    /// <summary>
+    /// This is the type for our start page. Here we'll use our own custom property type; FeatureProperty
+    /// </summary>
+    [PageType("StartPage", "Start page", "~/Templates/Pages/StartPage.aspx", PageTypeDescription = "Used for start page")]
+    public class StartPageType : CmsPage {
+
+        /// <summary>
+        /// A collection of 0..n of our custom FeatureProperty type
+        /// </summary>
+        [Property("Main feature slides")]
+        public virtual CollectionProperty<FeatureProperty> Slides { get; set; }
+
+        [Property("Main feature")]
+        public virtual FeatureProperty MainFeature { get; set; }
+
+        [Property("Secondary feature")]
+        public virtual FeatureProperty SecondaryFeature { get; set; }
+    }
+}
