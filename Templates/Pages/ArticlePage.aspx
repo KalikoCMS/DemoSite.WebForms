@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ArticlePage.aspx.cs" Inherits="DemoSite.Templates.Pages.ArticlePage" MasterPageFile="../MasterPages/Demo.Master" %>
 <%@ Register TagPrefix="site" tagName="Breadcrumbs" src="../Units/Breadcrumbs.ascx" %>
-<%@ Register TagPrefix="cms" Namespace="KalikoCMS.WebForms.WebControls" Assembly="KalikoCMS.WebForms" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -22,6 +21,7 @@
       </cms:MenuTree>
     </div>
     <div class="col-lg-9">
+      <%=CurrentPage.TopImage.ToHtml() %>
       <h1><%=CurrentPage.Headline %></h1>
       <p class="preamble"><%=CurrentPage.Preamble %></p>
       <%=CurrentPage.MainBody %>

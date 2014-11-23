@@ -15,6 +15,13 @@
         [Property("Headline")]
         public virtual StringProperty Headline { get; set; }
 
+        /// <summary>
+        /// To set a required width and/or height for images use the [ImageProperty] 
+        /// attribute instead of the standard [Property]
+        /// </summary>
+        [ImageProperty("Top image", Width = 848, Height = 180)]
+        public virtual ImageProperty TopImage { get; set; }
+
         [Property("Preamble")]
         public virtual TextProperty Preamble { get; set; }
 
