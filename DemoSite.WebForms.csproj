@@ -64,25 +64,25 @@
     <Reference Include="Kaliko.Logger">
       <HintPath>packages\Kaliko.Logger.1.1.0\lib\Kaliko.Logger.dll</HintPath>
     </Reference>
-    <Reference Include="KalikoCMS.Admin, Version=0.9.8.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="KalikoCMS.Admin, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Core.0.9.8\lib\KalikoCMS.Admin.dll</HintPath>
+      <HintPath>packages\KalikoCMS.Core.0.9.9\lib\KalikoCMS.Admin.dll</HintPath>
     </Reference>
-    <Reference Include="KalikoCMS.Engine, Version=0.9.8.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="KalikoCMS.Engine, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Core.0.9.8\lib\KalikoCMS.Engine.dll</HintPath>
+      <HintPath>packages\KalikoCMS.Core.0.9.9\lib\KalikoCMS.Engine.dll</HintPath>
     </Reference>
-    <Reference Include="KalikoCMS.Identity, Version=0.9.8.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="KalikoCMS.Identity, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Identity.0.9.8\lib\KalikoCMS.Identity.dll</HintPath>
+      <HintPath>packages\KalikoCMS.Identity.0.9.9\lib\KalikoCMS.Identity.dll</HintPath>
     </Reference>
     <Reference Include="KalikoCMS.Search, Version=3.0.3.3, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\KalikoCMS.Search.0.9.8\lib\KalikoCMS.Search.dll</HintPath>
     </Reference>
-    <Reference Include="KalikoCMS.WebForms, Version=0.9.8.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="KalikoCMS.WebForms, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.WebForms.0.9.8\lib\KalikoCMS.WebForms.dll</HintPath>
+      <HintPath>packages\KalikoCMS.WebForms.0.9.9\lib\KalikoCMS.WebForms.dll</HintPath>
     </Reference>
     <Reference Include="KalikoSearch, Version=3.0.3.3, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -290,6 +290,8 @@
     <Content Include="PropertyTypes\FeaturePropertyEditor.ascx" />
     <Content Include="readme.txt" />
     <Content Include="Templates\MasterPages\Demo.Master" />
+    <Content Include="App_Data\kalikocms.db3" />
+    <Content Include="App_Data\SearchIndex\KalikoCMS\segments.gen" />
     <Content Include="Admin\Templates\MasterPages\Base.Master" />
     <Content Include="Admin\Templates\MasterPages\Admin.Master" />
     <Content Include="Admin\Handlers\FileHandler.ashx" />
@@ -327,24 +329,6 @@
     <Content Include="Admin\Assets\fonts\hind\hind-bold-webfont.woff" />
     <Content Include="Admin\Assets\fonts\hind\hind-bold-webfont.ttf" />
     <Content Include="Admin\Assets\fonts\hind\hind-bold-webfont.eot" />
-    <Content Include="App_Data\kalikocms.db3" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\segments.gen" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\segments_r" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1a.fdt" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1a.fdx" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1a.frq" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1a.nrm" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1a.prx" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1a.tis" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1b.cfs" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.fdt" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.fdx" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.fnm" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.frq" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.nrm" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.prx" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.tii" />
-    <Content Include="App_Data\SearchIndex\KalikoCMS\_1c.tis" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
