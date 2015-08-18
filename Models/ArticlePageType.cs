@@ -7,7 +7,7 @@
     /// <summary>
     /// This is a standard page type for articles. We got a few defined properties.
     /// </summary>
-    [PageType("ArticlePage", "Article page", "~/Templates/Pages/ArticlePage.aspx", PageTypeDescription = "Used for articles")]
+    [PageType("ArticlePage", "Article page", "~/Templates/Pages/ArticlePage.aspx", PageTypeDescription = "Used for articles", PreviewImage = "/Assets/Images/articlepage.png")]
     public class ArticlePageType : CmsPage, IIndexable {
         /// <summary>
         /// Simple string headline to use instead of pagename in the articles.

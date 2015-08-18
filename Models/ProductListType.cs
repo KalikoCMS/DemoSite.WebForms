@@ -13,7 +13,7 @@
     /// This is done by implementing IPageExtender and will allow us to handle all calls that are 
     /// "below" our page, like "/products/my-product/" if "products" is our page. 
     /// </summary>
-    [PageType("ProductList", "Product list page", "~/Templates/Pages/ProductListPage.aspx")]
+    [PageType("ProductList", "Product list page", "~/Templates/Pages/ProductListPage.aspx", PreviewImage = "/Assets/Images/productlist.png")]
     public class ProductListType : CmsPage, IPageExtender {
         [Property("Headline")]
         public virtual StringProperty Headline { get; set; }

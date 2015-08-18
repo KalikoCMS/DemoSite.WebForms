@@ -43,14 +43,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\AspNet.Identity.DataAccess.2.1.0.6\lib\AspNet.Identity.DataAccess.dll</HintPath>
     </Reference>
-    <Reference Include="AutoMapper">
-      <HintPath>packages\AutoMapper.3.2.1\lib\net40\AutoMapper.dll</HintPath>
+    <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="AutoMapper.Net4">
-      <HintPath>packages\AutoMapper.3.2.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    <Reference Include="AutoMapper.Net4, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="fastjson">
-      <HintPath>packages\fastJSON.2.1.5.0\lib\net40\fastjson.dll</HintPath>
+    <Reference Include="fastjson, Version=2.1.0.0, Culture=neutral, PublicKeyToken=6b75a806b86095cd, processorArchitecture=MSIL">
+      <HintPath>packages\fastJSON.2.1.14.0\lib\net40\fastjson.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
@@ -58,35 +61,37 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
-    <Reference Include="Kaliko.ImageLibrary">
-      <HintPath>packages\ImageLibrary.2.0.0\lib\Kaliko.ImageLibrary.dll</HintPath>
+    <Reference Include="Kaliko.ImageLibrary, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ImageLibrary.2.0.5\lib\net45\Kaliko.ImageLibrary.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Kaliko.Logger">
-      <HintPath>packages\Kaliko.Logger.1.1.0\lib\Kaliko.Logger.dll</HintPath>
+    <Reference Include="Kaliko.Logger, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Kaliko.Logger.1.1.1\lib\Kaliko.Logger.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="KalikoCMS.Admin, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Core.0.9.9\lib\KalikoCMS.Admin.dll</HintPath>
+    <Reference Include="KalikoCMS.Admin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\KalikoCMS.Core.1.0.0\lib\KalikoCMS.Admin.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="KalikoCMS.Engine, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Core.0.9.9\lib\KalikoCMS.Engine.dll</HintPath>
+    <Reference Include="KalikoCMS.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\KalikoCMS.Core.1.0.0\lib\KalikoCMS.Engine.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="KalikoCMS.Identity, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Identity.0.9.9\lib\KalikoCMS.Identity.dll</HintPath>
+    <Reference Include="KalikoCMS.Identity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\KalikoCMS.Identity.1.0.0\lib\KalikoCMS.Identity.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="KalikoCMS.Search, Version=3.0.3.3, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Search.0.9.8\lib\KalikoCMS.Search.dll</HintPath>
+    <Reference Include="KalikoCMS.Search, Version=3.0.3.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\KalikoCMS.Search.1.0.0\lib\KalikoCMS.Search.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="KalikoCMS.WebForms, Version=0.9.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.WebForms.0.9.9\lib\KalikoCMS.WebForms.dll</HintPath>
+    <Reference Include="KalikoCMS.WebForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\KalikoCMS.WebForms.1.0.0\lib\KalikoCMS.WebForms.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="KalikoSearch, Version=3.0.3.3, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\KalikoCMS.Search.0.9.8\lib\KalikoSearch.dll</HintPath>
+    <Reference Include="KalikoSearch, Version=3.0.3.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\KalikoCMS.Search.1.0.0\lib\KalikoSearch.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Lucene.Net">
       <HintPath>packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
@@ -128,23 +133,29 @@
       <HintPath>packages\Microsoft.AspNet.Identity.Owin.2.1.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Owin">
-      <HintPath>packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security">
-      <HintPath>packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.Cookies">
-      <HintPath>packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.OAuth">
-      <HintPath>packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Owin">
       <HintPath>packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
@@ -169,26 +180,27 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Telerik.OpenAccess, Version=2014.3.1027.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Telerik.DataAccess.Core.2014.3.1027.1\lib\net40\Telerik.OpenAccess.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess, Version=2015.2.624.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.DataAccess.Core.2015.2.624.1\lib\net40\Telerik.OpenAccess.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2014.3.1027.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Telerik.DataAccess.Core.2014.3.1027.1\lib\net40\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2015.2.624.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.DataAccess.Core.2015.2.624.1\lib\net40\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.40.Extensions, Version=2014.3.1027.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Telerik.DataAccess.Core.2014.3.1027.1\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess.40.Extensions, Version=2015.2.624.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.DataAccess.Core.2015.2.624.1\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.Runtime, Version=2014.3.1027.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Telerik.DataAccess.Core.2014.3.1027.1\lib\net40\Telerik.OpenAccess.Runtime.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess.Runtime, Version=2015.2.624.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.DataAccess.Core.2015.2.624.1\lib\net40\Telerik.OpenAccess.Runtime.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Assets\fonts\hind\OFL.txt" />
     <Content Include="Admin\Assets\fonts\hind\webfont-hind.css" />
+    <Content Include="Admin\Assets\images\defaultpagetype.png" />
     <Content Include="Admin\Assets\images\error-image.jpg" />
     <Content Include="Admin\Assets\images\loading.gif" />
     <Content Include="Admin\Assets\images\logo.png" />
@@ -200,9 +212,6 @@
     <Content Include="Admin\Assets\js\kalikocms.admin.imageeditor.min.js" />
     <Content Include="Admin\Assets\js\kalikocms.admin.js" />
     <Content Include="Admin\Assets\js\kalikocms.admin.taginput.min.js" />
-    <Content Include="Admin\Assets\themes\dakota\includes\32px.png" />
-    <Content Include="Admin\Assets\themes\dakota\includes\throbber.gif" />
-    <Content Include="Admin\Assets\themes\dakota\theme.css" />
     <Content Include="Admin\Assets\themes\dakota\theme.js" />
     <Content Include="Admin\Assets\themes\dakota\theme.min.css" />
     <Content Include="Admin\Assets\vendors\font-awesome\fonts\fontawesome-webfont.svg" />
@@ -210,7 +219,6 @@
     <Content Include="Admin\Assets\vendors\jquery\css\jquery.fileupload-ui.css" />
     <Content Include="Admin\Assets\vendors\jquery\css\jquery.jcrop.min.css" />
     <Content Include="Admin\Assets\vendors\jquery\js\jquery-1.10.2.min.js" />
-    <Content Include="Admin\Assets\vendors\moment\moment.js" />
     <Content Include="Admin\Assets\vendors\tinymce\plugins\emoticons\img\smiley-cool.gif" />
     <Content Include="Admin\Assets\vendors\tinymce\plugins\emoticons\img\smiley-cry.gif" />
     <Content Include="Admin\Assets\vendors\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
@@ -242,6 +250,7 @@
     <Content Include="Admin\Content\Default.aspx" />
     <Content Include="Admin\Content\Dialogs\EditCollectionPropertyDialog.aspx" />
     <Content Include="Admin\Content\Dialogs\EditImageDialog.aspx" />
+    <Content Include="Admin\Content\Dialogs\PageVersionDialog.aspx" />
     <Content Include="Admin\Content\Dialogs\SelectFileDialog.aspx" />
     <Content Include="Admin\Content\Dialogs\SelectLinkDialog.aspx" />
     <Content Include="Admin\Content\Dialogs\SelectPageDialog.aspx" />
@@ -259,6 +268,7 @@
     <Content Include="Admin\Content\PropertyType\ImagePropertyEditor.js" />
     <Content Include="Admin\Content\PropertyType\LinkPropertyEditor.ascx" />
     <Content Include="Admin\Content\PropertyType\LinkPropertyEditor.js" />
+    <Content Include="Admin\Content\PropertyType\MarkdownPropertyEditor.ascx" />
     <Content Include="Admin\Content\PropertyType\NumericPropertyEditor.ascx" />
     <Content Include="Admin\Content\PropertyType\PageLinkPropertyEditor.ascx" />
     <Content Include="Admin\Content\PropertyType\PageLinkPropertyEditor.js" />
@@ -282,18 +292,24 @@
     <Content Include="Admin\Templates\Units\TopNavigation.ascx" />
     <Content Include="App_Data\empty.txt" />
     <Content Include="Assets\Css\DemoSite.css" />
+    <Content Include="Assets\Images\articlepage.png" />
+    <Content Include="Assets\Images\newslistpage.png" />
+    <Content Include="Assets\Images\newspage.png" />
+    <Content Include="Assets\Images\productlist.png" />
+    <Content Include="Assets\Images\searchpage.png" />
+    <Content Include="Assets\Images\startpage.png" />
     <Content Include="Files\Readme.txt" />
     <Content Include="ImageCache\readme.txt" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="packages.config" />
     <Content Include="PropertyTypes\FeaturePropertyEditor.ascx" />
-    <Content Include="readme.txt" />
     <Content Include="Templates\MasterPages\Demo.Master" />
     <Content Include="App_Data\kalikocms.db3" />
     <Content Include="App_Data\SearchIndex\KalikoCMS\segments.gen" />
     <Content Include="Admin\Templates\MasterPages\Base.Master" />
     <Content Include="Admin\Templates\MasterPages\Admin.Master" />
+    <Content Include="Admin\Handlers\MarkdownHandler.ashx" />
     <Content Include="Admin\Handlers\FileHandler.ashx" />
     <Content Include="Admin\Content\PageTree\JQueryTreeContent.ashx" />
     <Content Include="Admin\Content\Dialogs\Dialog.Master" />
@@ -307,12 +323,6 @@
     <Content Include="Admin\Assets\vendors\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="Admin\Assets\vendors\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="Admin\Assets\vendors\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="Admin\Assets\themes\dakota\theme.less" />
-    <Content Include="Admin\Assets\themes\dakota\theme.css.map" />
-    <Content Include="Admin\Assets\themes\dakota\includes\variables.less" />
-    <Content Include="Admin\Assets\themes\dakota\includes\kalikocms-framework.less" />
-    <Content Include="Admin\Assets\themes\dakota\includes\kalikocms-editor.less" />
-    <Content Include="Admin\Assets\themes\dakota\includes\bootstrap-theme.less" />
     <Content Include="Admin\Assets\images\Thumbnail.ashx" />
     <Content Include="Admin\Assets\fonts\hind\hind-semibold-webfont.woff" />
     <Content Include="Admin\Assets\fonts\hind\hind-semibold-webfont.ttf" />
@@ -353,6 +363,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\SQLiteAssemblyBinding.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="FakeStore\FakeProductDatabase.cs" />
     <Compile Include="FakeStore\Product.cs" />
@@ -481,7 +492,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="packages\AutoMapper.3.2.1\tools\AutoMapper.targets" Condition="Exists('packages\AutoMapper.3.2.1\tools\AutoMapper.targets')" />
   <Import Project="packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -489,6 +499,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets'))" />
   </Target>
+  <Import Project="packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

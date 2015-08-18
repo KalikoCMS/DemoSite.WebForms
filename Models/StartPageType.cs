@@ -7,7 +7,7 @@
     /// <summary>
     /// This is the type for our start page. Here we'll use our own custom property type; FeatureProperty
     /// </summary>
-    [PageType("StartPage", "Start page", "~/Templates/Pages/StartPage.aspx", PageTypeDescription = "Used for start page")]
+    [PageType("StartPage", "Start page", "~/Templates/Pages/StartPage.aspx", PageTypeDescription = "Used for start page", PreviewImage = "/Assets/Images/startpage.png")]
     public class StartPageType : CmsPage {
 
         /// <summary>

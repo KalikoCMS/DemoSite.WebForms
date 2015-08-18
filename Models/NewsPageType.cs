@@ -1,10 +1,15 @@
 ﻿namespace DemoSite.Models {
+    using System;
     using KalikoCMS.Attributes;
     using KalikoCMS.Core;
     using KalikoCMS.PropertyType;
     using KalikoCMS.Search;
 
-    [PageType("NewsPage", "News page", "~/Templates/Pages/NewsPage.aspx", PageTypeDescription = "Used for news")]
+    // Setting AllowedTypes to an empty array means that no pages can be created under a news page
+    [PageType("NewsPage", "News page", "~/Templates/Pages/NewsPage.aspx", 
+        PageTypeDescription = "Used for news", 
+        AllowedTypes = new Type[] {},
+        PreviewImage = "/Assets/Images/newspage.png")]
     public class NewsPageType : CmsPage, IIndexable {
         [Property("Headline")]
         public virtual StringProperty Headline { get; set; }
