@@ -1,8 +1,8 @@
 ﻿namespace DemoSite.Models {
+    using Business.PropertyTypes;
     using KalikoCMS.Attributes;
     using KalikoCMS.Core;
     using KalikoCMS.PropertyType;
-    using PropertyTypes;
 
     /// <summary>
     /// This is the type for our start page. Here we'll use our own custom property type; FeatureProperty
