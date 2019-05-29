@@ -1,5 +1,7 @@
 ﻿(function (propertyEditor) {
-    propertyEditor.link = {
+    var localTop = top;
+
+    propertyEditor.link = propertyEditor.link || {
         openDialog: function (urlField, typeField, displayField) {
             var url = $(urlField).val();
             var type = $(typeField).val();
@@ -10,17 +12,19 @@
                 $(displayField).val(newUrl);
             };
 
-            top.registerCallback(callback);
+            localTop.registerCallback(callback);
 
-            top.propertyEditor.dialogs.openSelectLinkDialog(url, type);
+            localTop.propertyEditor.dialogs.openSelectLinkDialog(url, type);
         }
     };
 })(top.propertyEditor || (top.propertyEditor = {}));
 
 
 (function (dialogs) {
-    dialogs.openSelectLinkDialog = function (url, type) {
-        parent.openModal("Content/Dialogs/SelectLinkDialog.aspx?url=" + escape(url) + "&type=" + type, 500, 240);
+    var localParent = parent;
+
+    dialogs.openSelectLinkDialog = dialogs.openSelectLinkDialog || function (url, type) {
+        localParent.openModal("Content/Dialogs/SelectLinkDialog.aspx?url=" + escape(url) + "&type=" + type, 500, 240);
         return false;
     };
 })(top.propertyEditor.dialogs || (top.propertyEditor.dialogs = {}));

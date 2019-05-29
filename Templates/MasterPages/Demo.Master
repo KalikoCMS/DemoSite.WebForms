@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Demo.master.cs" Inherits="DemoSite.Templates.MasterPages.Demo" %>
+<%@ Import Namespace="KalikoCMS" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -59,7 +60,7 @@
       <hr />
       <footer>
         <p class="pull-right"><a href="#"><i class="glyphicon glyphicon-chevron-up"></i> Back to top</a></p>
-        <p>&copy; <%=DateTime.Today.Year %> Company, Inc.</p>
+        <p>&copy; <%=DateTime.Today.Year %> <%=SiteFactory.CurrentSite<DemoSite.Models.DemoSite>().CompanyName %></p>
       </footer>
     </div>
   </form>
